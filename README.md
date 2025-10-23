@@ -1,7 +1,7 @@
 # Admin Quick Notes
 
 **Version:** 1.0.0  
-**Author:** Your Name  
+**Author:** Makdia  
 **Type:** WordPress Plugin  
 **Description:** Save quick notes in WordPress admin dashboard. Lightweight, useful, and portfolio-ready plugin built with modern PHP practices (PSR-4, Service Container, AJAX).
 
