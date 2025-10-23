@@ -1,0 +1,4 @@
+#aqn-note { width: 100%; max-width: 500px; }
+#aqn-notes-list { list-style: disc; padding-left: 20px; margin-top: 10px; }
+#aqn-notes-list li { margin-bottom: 5px; }
+.aqn-delete-note { margin-left: 10px; font-size: 11px; }

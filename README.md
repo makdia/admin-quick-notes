@@ -12,7 +12,7 @@
 - Add, view, and manage quick notes from WordPress admin.
 - Save notes instantly using AJAX without page reload.
 - Delete individual notes or clear all notes with one click.
-- Fully modular architecture inspired by FluentCart plugin structure.
+- Fully modular architecture.
 - PSR-4 autoloading with Composer.
 - Activation and deactivation hooks included.
 - Clean and minimal admin UI.
@@ -28,5 +28,35 @@
 
 ---
 
-## 🗂️ Folder Structure
+## ⚡ Usage
 
+1. Go to WordPress Dashboard → **Quick Notes**.
+2. Add a note in the textarea and click **Save Note**.
+3. View all saved notes below the form.
+4. Delete individual notes using the **Delete** button.
+5. Clear all notes using the **Clear All Notes** button.
+
+---
+
+## 🔧 Technical Highlights
+
+- **PSR-4 Autoloading:** Classes follow namespace → folder mapping for modularity.
+- **Service Container & Facade:** Centralized service management with `App::notes()`.
+- **AJAX Handling:** Nonce-secured AJAX requests for saving and deleting notes.
+- **Activation/Deactivation Hooks:** Log messages on plugin activation and deactivation.
+- **Composer Integration:** Handles autoloading and future dependency management.
+
+---
+
+## 💡 Future Enhancements
+
+- Add note categories or priorities.
+- TinyMCE or Markdown support for rich text notes.
+- Import/export notes feature.
+- Multi-user note sharing for WordPress admin.
+
+---
+
+## 📌 License
+
+MIT License

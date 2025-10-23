@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'AdminQuickNotes\\' => array($baseDir . '/app'),
+    'AdminQuickNotes\\App\\' => array($baseDir . '/app'),
 );
